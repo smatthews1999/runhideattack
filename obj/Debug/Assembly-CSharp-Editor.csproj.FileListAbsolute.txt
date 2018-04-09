@@ -1,0 +1,2 @@
+C:\Users\smatt\Dropbox (Personal)\code\Unity\HideTest\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+C:\Users\smatt\Dropbox (Personal)\code\Unity\HideTest\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache

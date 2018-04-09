@@ -1,0 +1,42 @@
+tree("Root")
+	fallback
+		tree "GameOver"
+		tree "Attack"
+		tree "RunAndHide"
+		tree "Idle"
+	
+// attack player if...
+//  in attack range
+//  has enough friends to attack
+//  or if player is already under attack	
+tree "Attack"
+	sequence					
+		InAttackRange
+		fallback
+			HasFriends
+			IsPlayerUnderAttack
+		StartAttacking
+
+// find a hiding place...
+//  if in visible range
+//  and place is not too close to player
+tree "RunAndHide"
+	sequence
+		EndAttacking
+		InVisibleRange
+		fallback			
+			IsTooClose
+			not IsHidden
+		sequence
+			FindHidingPlace
+			MoveToPosition
+
+// do nothing
+tree "Idle"
+	Succeed
+
+// has player been killed by this NPC or any NPCs
+tree "GameOver"
+	while HasKilledPlayer
+		Succeed
+	
