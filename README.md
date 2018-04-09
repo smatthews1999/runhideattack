@@ -8,8 +8,8 @@
 
 ### Prerequisites
 
-* This project uses the free edition of [Panda Behavior Trees](https://www.pandabehavior.com).  The project will not run without this asset installed.
-
+* This project uses the free edition of [Panda Behavior Trees](http://www.pandabehaviour.com/).  The project will not run without this asset 
+installed.
 ### Description
 
 This AI will direct NPCs to run and hide behind obsticles from the player.  When enough NPCs have gathered together, they will stop running and attack the player.
