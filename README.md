@@ -14,6 +14,7 @@
 
 This AI will direct NPCs to run and hide behind obsticles from the player.  When enough NPCs have gathered together, they will stop running and attack the player.
 
+### Youtube Video
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EjfgQHU-Lpo/0.jpg)](http://www.youtube.com/watch?v=EjfgQHU-Lpo)
 
 * A surface object must contains a Navmesh.  
