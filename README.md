@@ -14,6 +14,7 @@
 
 This AI will direct NPCs to run and hide behind obsticles from the player.  When enough NPCs have gathered together, they will stop running and attack the player.
 
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EjfgQHU-Lpo/0.jpg)](http://www.youtube.com/watch?v=EjfgQHU-Lpo)
 
 * A surface object must contains a Navmesh.  
 * Each NPC is a Navmesh Agent.  
@@ -33,7 +34,7 @@ This AI will direct NPCs to run and hide behind obsticles from the player.  When
 
 * **Sam Matthews** - *Initial work* - [smatthews1999](https://github.com/smatthews1999)
 
-* See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* See also the list of [contributors](https://github.com/smatthews1999/runhideattack/contributors) who participated in this project.
 
 ## License
 
