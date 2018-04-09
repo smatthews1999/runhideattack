@@ -12,7 +12,7 @@
 installed.
 ### Description
 
-This AI will direct NPCs to run and hide behind obsticles from the player.  When enough NPCs have gathered together, they will stop running and attack the player.
+This AI will direct NPCs to run and hide behind obstacles from the player.  When enough NPCs have gathered together, they will stop running and attack the player.
 
 ### Youtube Video
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EjfgQHU-Lpo/0.jpg)](http://www.youtube.com/watch?v=EjfgQHU-Lpo)
@@ -24,7 +24,7 @@ This AI will direct NPCs to run and hide behind obsticles from the player.  When
 * NPCs will keep a safe distance from the player.
 * The number of NPCs gathered together will determine whether they continue to flee or turn and fight.
 * Attacking NPCs will lose interest when they get too far away.
-* One attacking, any NPCs in range will join the fight. 
+* Once attacking, any NPCs in range will join the fight. 
 
 ## Built With
 
